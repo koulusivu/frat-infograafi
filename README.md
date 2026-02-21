@@ -2,7 +2,7 @@
 
 ## Kuvaus
 
-Tämä sivusto on osa opinnäytetyötä, jonka aiheena on kaatumisen ehkäisy iäkkäillä."
+Tämä sivusto on osa opinnäytetyötä, jonka aiheena on kaatumisen ehkäisy iäkkäillä.
 
 ## Tavoitteet
 
