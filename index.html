@@ -3,77 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kaatumisen ehkäisy iäkkäillä - Opinnäytetyö</title>
-    <!-- Linkitys ulkoiseen tyylitiedostoon -->
-    <link rel="stylesheet" href="style.css">
+    <title>Sivua valmistellaan</title>
+    <style>
+        /* Pika-CSS, jotta sivu näyttää hyvältä ilman ulkoista tiedostoa */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #212b32;
+            background-color: #ffffff;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+        }
+        .container {
+            max-width: 600px;
+            padding: 2rem;
+            border-top: 10px solid #005eb8;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+        h1 { color: #005eb8; }
+        .status-badge {
+            background-color: #f0f4f5;
+            padding: 10px 20px;
+            border-radius: 4px;
+            display: inline-block;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+    </style>
 </head>
 <body>
 
-    <!-- Yläpalkki (Header) -->
-    <header class="site-header" role="banner">
-        <div class="container">
-            <h1>Kaatumisen ehkäisy</h1>
-            <p>Luotettavaa tietoa ja työkaluja iäkkäiden turvalliseen arkeen</p>
-        </div>
-    </header>
-
-    <!-- Navigointi (valikko) -->
-    <nav class="main-nav" role="navigation" aria-label="Päävalikko">
-        <div class="container">
-            <ul>
-                <li><a href="#tietoa">Tietoa kaatumisesta</a></li>
-                <li><a href="#arviointi">Riskin arviointi</a></li>
-                <li><a href="#vinkit">Ehkäisyvinkit</a></li>
-            </ul>
-        </div>
-    </nav>
-
-    <!-- Pääsisältö -->
-    <main class="container" role="main">
+    <div class="container">
+        <div class="status-badge">Projektivaihe: Julkaisu ja testaus</div>
+        <h1>Opinnäytetyö</h1>
+        <p>Tervetuloa. Tätä verkkosivustoa valmistellaan parhaillaan osana opinnäytetyötä, joka käsittelee <strong>iäkkäiden kaatumisen ehkäisyä</strong>.</p>
+        <p>Sivusto avataan pian. Kiitos kärsivällisyydestäsi.</p>
         
-        <section id="tietoa" class="content-section">
-            <h2>Miksi kaatumisen ehkäisy on tärkeää?</h2>
-            <p>Kaatuminen on yksi merkittävimmistä iäkkäiden terveyteen vaikuttavista tekijöistä. Suurin osa kaatumisista on kuitenkin ehkäistävissä oikeilla toimilla ja ympäristön muutoksilla.</p>
-        </section>
-
-        <section id="arviointi" class="content-section">
-            <h2>Kaatumisriskin arviointi</h2>
-            <p>Testaa kotisi turvallisuus alla olevalla interaktiivisella työkalulla:</p>
-            
-            <!-- Interaktiivinen osio, jota script.js ohjaa -->
-            <div id="risk-checker" class="interactive-box">
-                <p>Onko kodissasi irtonaisia mattoja tai kynnyksiä?</p>
-                <button onclick="checkRisk(true)">Kyllä</button>
-                <button onclick="checkRisk(false)">Ei</button>
-                <div id="risk-result" aria-live="polite"></div>
-            </div>
-        </section>
-
-        <section id="vinkit" class="content-section">
-            <h2>Vinkkejä kodin turvallisuuteen</h2>
-            <div class="grid-container">
-                <div class="grid-item">
-                    <h3>Valaistus</h3>
-                    <p>Varmista, että kulkureitit ovat hyvin valaistuja myös yöaikaan.</p>
-                </div>
-                <div class="grid-item">
-                    <h3>Jalkineet</h3>
-                    <p>Käytä tukevia sisäkenkiä, joissa on pitävä pohja.</p>
-                </div>
-            </div>
-        </section>
-
-    </main>
-
-    <!-- Alapalkki (Footer) -->
-    <footer class="site-footer">
-        <div class="container">
-            <p>&copy; Opinnäytetyö: Kaatumisen ehkäisy iäkkäillä</p>
-            <p><small>Sivuston virallinen kieli on suomi. Sivuston materiaali on tarkoitettu vain osaksi opinnäytetyötä, eikä sitä tule käyttää pätevänä neuvona tai ohjeena yhtään mihinkään tarkoitukseen. Sivuston materiaali on oma tuotos, poislukien ne kohdat joihin sivustolla erikseen viitataan. Kaikki oikeudet pidätetään.</small></p>
-        </div>
-    </footer>
-
-    <!-- JavaScript-tiedoston lataus lopussa suorituskyvyn parantamiseksi -->
-    <script src="script.js"></script>
+        <hr style="border: 0; border-top: 1px solid #d8dde0; margin: 2rem 0;">
+        
+        <p style="font-size: 0.8rem; color: #768692;">
+            &copy; 2026 Opinnäytetyö<br>
+            Isännöinti: GitHub Pages | Domain: Infomaniak | Verkkotunnuspääte: EURid <br>
+        <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub Pages -tietosuojaseloste</a><br>
+                <a href="https://www.infomaniak.com/en/legal/confidentiality-policy">Infomaniak -tietosuojaseloste</a><br>
+                <a href="https://eurid.eu/en/privacy-policy/">EURid / .eu -tietosuojaseloste</a>
+            </p>
 </body>
 </html>
