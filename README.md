@@ -13,7 +13,7 @@ Sivusto pyrkii tarjoamaan luotettavaa tietoa kaatumisriskin arvioinnista.
 - **HTML ja CSS:** Sivuston rakenne ja tyylit.
 - **JavaScript:** Interaktiiviset ominaisuudet
 - **GitHub Pages:** Sivuston isännöinti
-- **Verkkotunnus:** opinnaytetyo2026.eu.
+- **Verkkotunnus:** opinnaytetyo2026.eu
 
 ## Projektin rakenne
 
