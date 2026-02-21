@@ -3,67 +3,77 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kaatumisriskin arviointi | Opinnäytetyö 2026</title>
+    <title>Kaatumisen ehkäisy iäkkäillä - Opinnäytetyö</title>
+    <!-- Linkitys ulkoiseen tyylitiedostoon -->
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <a href="#main-content" class="skip-link">Hyppää sisältöön</a>
 
-    <header class="nhsuk-header">
+    <!-- Yläpalkki (Header) -->
+    <header class="site-header" role="banner">
         <div class="container">
-            <div class="logo">Kaatumisriskin arviointi 2026</div>
-            <nav>
-                <ul>
-                    <li><a href="#mika-frat">Mikä ABCD?</a></li>
-                    <li><a href="#arviointi">Arviointi</a></li>
-                    <li><a href="#toimenpiteet">Toimenpiteet</a></li>
-                </ul>
-            </nav>
+            <h1>Kaatumisen ehkäisy</h1>
+            <p>Luotettavaa tietoa ja työkaluja iäkkäiden turvalliseen arkeen</p>
         </div>
     </header>
 
-    <main id="main-content" class="container">
-        <section id="mika-frat">
-            <h1>ABCD - Kaatumisriskin arviointityökalu</h1>
-            <p class="lede">Kopiosuojattuteksti (ABCD) on näyttöön perustuva menetelmä iäkkäiden kaatumisriskin tunnistamiseen.</p>
-        </section>
-
-        <section id="arviointi" class="card-grid">
-            <div class="card">
-                <h2>Vaihe 1: Esiseulonta</h2>
-                <p>Onko potilas kaatunut viimeisen 12 kuukauden aikana? Onko hänellä tasapainovaikeuksia?</p>
-            </div>
-            <div class="card">
-                <h2>Vaihe 2: Riski-indikaattorit</h2>
-                <ul>
-                    <li>Lääkitys (esim. psyykelääkkeet)</li>
-                    <li>Näkökyky ja kognitio</li>
-                    <li>Ympäristötekijät</li>
-                </ul>
-            </div>
-        </section>
-
-        <section id="toimenpiteet">
-            <h2>Suositellut toimenpiteet</h2>
-            <div class="nhsuk-inset-text">
-                <p>Matalan riskin potilaille suositellaan lihasvoimaharjoittelua. Korkean riskin potilaille tehdään moniammatillinen arviointi.</p>
-            </div>
-        </section>
-    </main>
-
-    <footer class="nhsuk-footer">
+    <!-- Navigointi (valikko) -->
+    <nav class="main-nav" role="navigation" aria-label="Päävalikko">
         <div class="container">
             <ul>
-                <li><a href="#">Tietosuoja</a></li>
-                <li><a href="#">Saavutettavuusseloste</a></li>
-                <li><a href="#">Yhteystiedot</a></li>
+                <li><a href="#tietoa">Tietoa kaatumisesta</a></li>
+                <li><a href="#arviointi">Riskin arviointi</a></li>
+                <li><a href="#vinkit">Ehkäisyvinkit</a></li>
             </ul>
-            <p>&copy; 2026 Opinnäytetyö</p>
+        </div>
+    </nav>
+
+    <!-- Pääsisältö -->
+    <main class="container" role="main">
+        
+        <section id="tietoa" class="content-section">
+            <h2>Miksi kaatumisen ehkäisy on tärkeää?</h2>
+            <p>Kaatuminen on yksi merkittävimmistä iäkkäiden terveyteen vaikuttavista tekijöistä. Suurin osa kaatumisista on kuitenkin ehkäistävissä oikeilla toimilla ja ympäristön muutoksilla.</p>
+        </section>
+
+        <section id="arviointi" class="content-section">
+            <h2>Kaatumisriskin arviointi</h2>
+            <p>Testaa kotisi turvallisuus alla olevalla interaktiivisella työkalulla:</p>
+            
+            <!-- Interaktiivinen osio, jota script.js ohjaa -->
+            <div id="risk-checker" class="interactive-box">
+                <p>Onko kodissasi irtonaisia mattoja tai kynnyksiä?</p>
+                <button onclick="checkRisk(true)">Kyllä</button>
+                <button onclick="checkRisk(false)">Ei</button>
+                <div id="risk-result" aria-live="polite"></div>
+            </div>
+        </section>
+
+        <section id="vinkit" class="content-section">
+            <h2>Vinkkejä kodin turvallisuuteen</h2>
+            <div class="grid-container">
+                <div class="grid-item">
+                    <h3>Valaistus</h3>
+                    <p>Varmista, että kulkureitit ovat hyvin valaistuja myös yöaikaan.</p>
+                </div>
+                <div class="grid-item">
+                    <h3>Jalkineet</h3>
+                    <p>Käytä tukevia sisäkenkiä, joissa on pitävä pohja.</p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Alapalkki (Footer) -->
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; Opinnäytetyö: Kaatumisen ehkäisy iäkkäillä</p>
+            <p><small>Sivuston virallinen kieli on suomi. Sivuston materiaali on tarkoitettu vain osaksi opinnäytetyötä, eikä sitä tule käyttää pätevänä neuvona tai ohjeena yhtään mihinkään tarkoitukseen. Sivuston materiaali on oma tuotos, poislukien ne kohdat joihin sivustolla erikseen viitataan. Kaikki oikeudet pidätetään.</small></p>
         </div>
     </footer>
 
-    <button id="backToTop" title="Takaisin ylös" aria-label="Takaisin ylös">↑</button>
-
+    <!-- JavaScript-tiedoston lataus lopussa suorituskyvyn parantamiseksi -->
     <script src="script.js"></script>
 </body>
 </html>
