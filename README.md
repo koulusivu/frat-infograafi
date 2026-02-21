@@ -28,7 +28,9 @@ Sivusto pyrkii tarjoamaan luotettavaa tietoa kaatumisriskin arvioinnista.
 
 Sivusto sisältää linkkejä kolmannen osapuolen sivuille, joiden sisällöistä tämän sivun ylläpitäjä ei vastaa lainkaan. Seuraava teksti sisältää linkkejä, jotka avautuvat kolmannen osapuolen sivuille:
 
-## Immateriaalioikeudet:Tämä sivusto on toteutettu osana opinnäytetyötä. Sivuston sisältämät tiedot ja FRAT-työkaluun perustuvat sisällöt on tarkoitettu ainoastaan osaksi opinnäytetyötä.
+## Immateriaalioikeudet:
+
+Tämä sivusto on toteutettu osana opinnäytetyötä. Sivuston sisältämät tiedot ja FRAT-työkaluun perustuvat sisällöt on tarkoitettu ainoastaan osaksi opinnäytetyötä.
 
 Lyhyt kaatumisvaaran arviointi – FRAT (pdf 99 kt) on saatavilla täällä: https://thl.fi/aiheet/hyvinvoinnin-ja-terveyden-edistamisen-johtaminen/turvallisuuden-edistaminen/tapaturmien-ehkaisy/iakkaiden-tapaturmat/kaatumiset-ja-putoamiset/kaatumisvaaran-arviointi
 Sisällöllinen riskiarviointi perustuu FRAT (Falls Risk Assessment Tool) -työkaluun, jonka on kehittänyt Peninsula Health (https://www.peninsulahealth.org.au). Alkuperäisen työkalun omistusoikeudet kuuluvat kehittäjäorganisaatiolle.
