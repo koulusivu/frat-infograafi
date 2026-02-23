@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="fi">
 <head>
@@ -66,6 +65,17 @@
             flex: 0 1 auto;
         }
 
+        /* Responsiivisuuden korjaus mobiilille */
+        @media (max-width: 600px) {
+            .responsive-flex {
+                flex-direction: column !important;
+            }
+            .container {
+                margin: 10px;
+                padding: 1.5rem;
+            }
+        }
+
         /* Night mode (aktivoituu automaattisesti laitteen asetuksista) */
         @media (prefers-color-scheme: dark) {
             body {
@@ -116,7 +126,7 @@ Sisällöllinen riskiarviointi perustuu FRAT (Falls Risk Assessment Tool) -työk
    Peninsula Health
 </a></div> Alkuperäisen työkalun omistus- ja käännösoikeudet kuuluvat kyseisille tahoille.</p>
              <p>Sivusto avataan kevään 2026 aikana.</p>
-                <div style="display: flex; gap: 10px; align-items: flex-start;">
+                <div class="responsive-flex" style="display: flex; gap: 10px; align-items: flex-start;">
 
     <details style="flex: 1; padding: 5px;">
         <summary>Asuminen ja kaatumishistoria</summary>
@@ -174,7 +184,7 @@ Sisällöllinen riskiarviointi perustuu FRAT (Falls Risk Assessment Tool) -työk
                 <div class="footer-item">
                     <details>
                         <summary>Palveluntarjoajat:</summary>
-                        <div style="display: grid; grid-template-columns: auto 1fr; gap: 5px 10px; line-height: 1.8; font-size: 0.8rem; margin-top: 10px; min-width: 220px;">
+                        <div style="display: grid; grid-template-columns: auto 1fr; gap: 5px 10px; line-height: 1.8; font-size: 0.8rem; margin-top: 10px;">
                             <div><strong>Verkkotunnuspääte:</strong></div>
                             <div>EURid (<a href="https://eurid.eu/en/privacy-policy/">tietosuojaseloste</a>)</div>
                             <div><strong>Lähdekoodin säilytyspaikka:</strong></div>
