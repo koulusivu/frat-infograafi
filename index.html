@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="fi">
 <head>
@@ -30,14 +31,7 @@
             background-color: #ffffff;
         }
         h1 { color: #005eb8; }
-        .status-badge {
-            background-color: #f0f4f5;
-            padding: 10px 20px;
-            border-radius: 4px;
-            display: inline-block;
-            font-weight: bold;
-            margin-bottom: 20px;
-        }
+        
         a { color: #005eb8; }
 
         /* Avattavien osioiden tyylit */
@@ -105,46 +99,77 @@
 
     <main class="container">
         <header>
-            <div class="status-badge">Tämä on väliaikainen näkymä</div>
-            <h1>Opinnäytetyö</h1>
+            <h1 style="text-align: center;">Opinnäytetyö</h1>
         </header>
 
         <section>
-            <p>Tervetuloa. Tämä verkkosivu on osa opinnäytetyötä, joka käsittelee iäkkäiden kaatumisen ehkäisyä.</p>
+            <p>Tervetuloa. Tämä verkkosivu on osa <strong>sairaanhoitajaopiskelijoiden</strong> opinnäytetyötä, joka käsittelee iäkkäiden kaatumisen ehkäisyä. Tämän sivuston sisältö on tarkoitettu ainoastaan yleiseksi tiedoksi, eikä sitä tule käsittää lääketieteelliseksi neuvonnaksi, diagnosoinniksi tai hoidoksi. Terveyttä tai lääkitystä koskevissa asioissa on aina otettava yhteys terveydenhuollon ammattilaiseen.</p>
             <p>Sivusto avataan kevään 2026 aikana.</p>
+                 <details style="margin: 1rem;">
+                <summary>Asuminen ja kaatumishistoria</summary>
+                <p style="font-size: 0.8rem;">Tekstiä tekstiä tekstiä tekstiä tekstiä tekstiä tekstiä tekstiä.</p>
+            </details>
+            
+                             <details style="margin: 1rem;">
+                <summary>Lääkitys</summary>
+                <p style="font-size: 0.8rem;">Tekstiä tekstiä tekstiä tekstiä tekstiä tekstiä tekstiä tekstiä.</p>
+            </details>
+            
+                             <details style="margin: 1rem;">
+                <summary>Henkinen tila</summary>
+                <p style="font-size: 0.8rem;">Tekstiä tekstiä tekstiä tekstiä tekstiä tekstiä tekstiä tekstiä.</p>
+            </details>
+            
+                                         <details style="margin: 1rem;">
+                <summary>Kognitio/muisti</summary>
+                <p style="font-size: 0.8rem;">Tekstiä tekstiä tekstiä tekstiä tekstiä tekstiä tekstiä tekstiä.</p>
+            </details>
+            
+            
         </section>
         
         <hr style="border: 0; border-top: 1px solid #d8dde0; margin: 2rem 0;">
         
-        <footer>
+         <footer>
             <p style="font-size: 0.8rem; text-align: center;">2026 Opinnäytetyö</p>
             
-            <details style="margin-bottom: 1rem;">
-                <summary>Ylläpito ja vaikuttavat lakialueet:</summary>
-                <p style="font-size: 0.8rem;">Sivustoa ylläpidetään Suomessa, ja se on siten soveltuvin osin Suomen lakien ja asetusten alainen. Sivuston tekniseen toteutukseen vaikuttavat kuitenkin myös soveltuvin osin Belgian, Sveitsin (mukaan lukien Geneven kantonin) ja Yhdysvaltain (mukaan lukien Kalifornian osavaltion) lait ja asetukset sekä muut mahdolliset määräykset.</p>
-            </details>
+            <div class="footer-flex" style="display: flex; flex-wrap: nowrap; gap: 1rem; align-items: flex-start;">
+                
+                <!-- 1. Ylläpito -->
+                <div class="footer-item">
+                    <details>
+                        <summary>Ylläpito:</summary>
+                        <p style="font-size: 0.8rem; margin-top: 0.5rem; min-width: 200px;">
+                            Sivustoa ylläpidetään Suomessa. Tekniseen toteutukseen vaikuttavat myös Belgian, Sveitsin ja Yhdysvaltain lait.
+                        </p>
+                    </details>
+                </div>
 
-            <div class="footer-flex">
+                <!-- 2. Tietosuoja -->
                 <div class="footer-item">
                     <details>
                         <summary>Tietosuoja:</summary>
-                        <p style="font-size: 0.8rem;">Ylläpitäjä ei kerää henkilötietoja. Palveluntarjoajat saattavat kerätä teknisiä lokitietoja, joihon sivun ylläpitäjä ei pysty vaikuttamaan:</p>
+                        <p style="font-size: 0.8rem; margin-top: 0.5rem; min-width: 200px;">
+                            Ylläpitäjä ei kerää henkilötietoja. Palveluntarjoajat saattavat kerätä teknisiä lokitietoja.
+                        </p>
                     </details>
                 </div>
 
+                <!-- 3. Palveluntarjoajat -->
                 <div class="footer-item">
                     <details>
                         <summary>Palveluntarjoajat:</summary>
-                        <div style="display: grid; grid-template-columns: auto 1fr; gap: 5px 10px; line-height: 1.8; font-size: 0.8rem; margin-top: 10px; min-width: 250px;">
-                            <div><strong>Pääte:</strong></div>
-                            <div>EURid / .eu (<a href="https://eurid.eu/en/privacy-policy/">tietosuoja</a>)</div>
-                            <div><strong>Koodi:</strong></div>
-                            <div>GitHub (<a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">tietosuoja</a>)</div>
-                            <div><strong>Domain:</strong></div>
-                            <div>Infomaniak (<a href="https://www.infomaniak.com/en/legal/confidentiality-policy">tietosuoja</a>)</div>
+                        <div style="display: grid; grid-template-columns: auto 1fr; gap: 5px 10px; line-height: 1.8; font-size: 0.8rem; margin-top: 10px; min-width: 220px;">
+                            <div><strong>Verkkotunnuspääte:</strong></div>
+                            <div>EURid (<a href="https://eurid.eu/en/privacy-policy/">tietosuojaseloste</a>)</div>
+                            <div><strong>Lähdekoodin säilytyspaikka:</strong></div>
+                            <div>GitHub (<a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">tietosuojaseloste</a>)</div>
+                            <div><strong>Verkkotunnus:</strong></div>
+                            <div>Infomaniak (<a href="https://www.infomaniak.com/en/legal/confidentiality-policy">tietosuojaseloste</a>)</div>
                         </div>
                     </details>
                 </div>
+
             </div>
         </footer>
     </main>
