@@ -77,6 +77,58 @@ summary:hover {
     }
 }
 
+
+/* Flex-säiliö linkeille */
+.responsive-flex {
+    display: flex;
+    gap: 10px;
+    align-items: flex-start;
+    flex-wrap: wrap; /* Sallii rivittymisen pienillä näytöillä */
+    margin-bottom: 20px;
+}
+
+/* Linkkien ulkoasu (muistuttaa nappeja tai siistejä linkkejä) */
+.nav-link {
+    flex: 1;
+    padding: 10px;
+    text-decoration: none;
+    color: #333;
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    text-align: center;
+    font-size: 0.9rem;
+    border-radius: 4px;
+}
+
+.nav-link:hover {
+    background-color: #e0e0e0;
+}
+
+/* Kelluva Takaisin ylös -nappi */
+.back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 50px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+    font-weight: bold;
+    z-index: 1000;
+}
+
+.back-to-top:hover {
+    background-color: #0056b3;
+}
+
+/* Tasainen skrollaus (valinnainen, tekee siirtymisestä pehmeän) */
+html {
+    scroll-behavior: smooth;
+}
+
+
 /* Night mode */
 @media (prefers-color-scheme: dark) {
     body {
