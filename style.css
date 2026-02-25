@@ -93,11 +93,6 @@ html {
     /* Navigointilinkit Night modessa */
     .responsive-flex a {
         color: #ff0000;
-        text-decoration: none;
-        padding: 5px 10px;
-        border: 1px solid #ffa500;
-        border-radius: 4px;
-        transition: 0.3s;
     }
 
     /* Hover: Tausta keltaiseksi, teksti mustaksi */
