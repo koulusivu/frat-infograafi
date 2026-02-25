@@ -15,10 +15,7 @@ body {
 .container {
     max-width: 600px;
     padding: 2rem;
-    border-top: 5px solid #005eb8;
-    border-right: 5px solid #005eb8;
-    border-left: 5px solid #005eb8;
-    border-bottom: 5px solid #005eb8;
+    border: 5px solid #005eb8;
     box-shadow: 0 4px 15px rgba(0,0,0,0.1);
     margin: 20px;
     background-color: #ffffff;
@@ -28,9 +25,8 @@ h1 { color: #005eb8; }
 a { color: #005eb8; }
 
 /* Avattavien osioiden tyylit */
-summary {
-    list-style: none;
-    background-color: #f0f4f5;
+/* summary {
+ list-style: none;    background-color: #f0f4f5;
     padding: 8px 15px;
     border-radius: 5px;
     border: 1px solid #d8dde0;
@@ -38,24 +34,27 @@ summary {
     cursor: pointer;
     font-weight: bold;
     width: auto;
-}
-
-.alert-box {
+} */
+/* .alert-box {
     background-color: #f8f9fa;
-    border-left: 4px solid #005eb8;
+    border: 5px solid #005eb8;
     padding: 1rem;
     margin: 1.5rem 0;
     font-size: 0.85rem;
     color: #444;
-}
+} 
+*/
 
+
+/*
 summary::-webkit-details-marker {
-    display: none;
-}
-
+    display: none;}*/
+/*
 summary:hover {
     background-color: #e2e8eb;
-}
+} */
+
+
 
 /* Asettelu rinnakkain */
 .footer-flex {
