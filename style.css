@@ -88,11 +88,11 @@ html {
     }
 
     h1, h2, h3 { color: #ffa500; }
-    a { color: #ff0000; }
+    a { color: #ffa500; }
 
     /* Navigointilinkit Night modessa */
     .responsive-flex a {
-        color: #ff0000;
+        color: #ffa500;
     }
 
     /* Hover: Tausta keltaiseksi, teksti mustaksi */
