@@ -25,7 +25,6 @@ h1 { color: #005eb8; }
 h2, h3 { color: #303030; }
 a { color: #005eb8; }
 
-/* Asettelu rinnakkain */
 .footer-flex {
     display: flex;
     flex-direction: row;
@@ -33,52 +32,51 @@ a { color: #005eb8; }
     align-items: flex-start;
 }
 
-.footer-item {
-    flex: 0 1 auto;
-}
+.footer-item { flex: 0 1 auto; }
 
-
-
-/* Responsiivisuuden korjaus mobiilille */
-@media (max-width: 600px) {
-    .responsive-flex {
-        flex-direction: column !important;
-    }
-    .container {
-        margin: 10px;
-        padding: 1.5rem;
-    }
-}
-
-/* Kelluva Takaisin ylös -nappi (Oletus/Vaalea) */
+/* Kelluva Takaisin ylös -nappi (YHTEINEN LOGIIKKA) */
 .back-to-top {
     position: fixed;
     bottom: 20px;
     right: 20px;
     padding: 10px 15px;
     background-color: #007bff;
-    color: white;
+    color: white !important;
     text-decoration: none;
     border-radius: 50px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.3);
     font-weight: bold;
     z-index: 1000;
-    transition: 0.3s;
+    
+    /* Piilotus alussa */
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.4s, background-color 0.3s;
+}
+
+/* Näyttäminen JS:llä */
+.back-to-top.show {
+    opacity: 1;
+    pointer-events: auto;
 }
 
 .back-to-top:hover {
     background-color: #005eb8;
 }
 
-html {
-    scroll-behavior: smooth;
+html { scroll-behavior: smooth; }
+
+/* Mobiili */
+@media (max-width: 600px) {
+    .responsive-flex { flex-direction: column !important; }
+    .container { margin: 10px; padding: 1.5rem; }
 }
 
 /* Night mode */
 @media (prefers-color-scheme: dark) {
     body {
         background-color: #2b2b2b;
-        color: #ffffff; /* tekstin väri */
+        color: #ffffff;
     }
     
     .container {
@@ -88,23 +86,15 @@ html {
     }
 
     h1, h2, h3 { color: #ffa500; }
-    a { color: #ffa500; }
+    a { color: #ffa500; } 
 
-    /* Navigointilinkit Night modessa */
-    .responsive-flex a {
-        color: #ffa500;
-    }
-
-    /* Hover: Tausta keltaiseksi, teksti mustaksi */
-    .responsive-flex a:hover, .back-to-top:hover {
-        background-color: #ffa500 !important;
-        color: #2b2b2b !important;
-    }
-    
-    /* Takaisin ylös -nappi Night modessa */
     .back-to-top {
         background-color: #ffa500;
-        color: #2b2b2b; /* Tekstin väri*/
+        color: #2b2b2b !important;
+    }
+
+    .back-to-top:hover {
+        background-color: #ffcc00 !important;
     }
 
     hr { border-top-color: #333 !important; }
