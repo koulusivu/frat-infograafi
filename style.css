@@ -20,6 +20,11 @@ body {
     margin: 20px;
     background-color: #ffffff;
 }
+ul {
+  list-style-type: none; /* Poistaa pallot */
+  padding: 0;            /* Poistaa sisennyksen vasemmalta */
+  margin: 0;             /* Poistaa ulkopuolisen tyhjän tilan */
+}
 
 h1 { color: #0038B8; }
 h2, h3 { color: #303030; }
