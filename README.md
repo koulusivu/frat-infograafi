@@ -45,4 +45,4 @@ Sivustoa ylläpidetään Suomessa, ja se on siten soveltuvin osin Suomen lakien 
   
   ## Lisenssi:
   
-- **Tämän projektin ohjelmistokoodi on lisensoitu MIT-lisenssillä (katso LICENSE-tiedosto). Sivuston sisällölliset oikeudet ja vastuuvapauslausekkeet on määritelty yllä.**
+- **Tämän projektin ohjelmistokoodi on lisensoitu MIT-lisenssillä (katso LICENSE-tiedosto). Sivuston sisällölliset oikeudet ja vastuuvapauslausekkeet on määritelty edellä.**
