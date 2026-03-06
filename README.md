@@ -42,3 +42,5 @@ Sivustoa ylläpidetään Suomessa, ja se on siten soveltuvin osin Suomen lakien 
 - **GitHub Pages-tietosuojaseloste:** https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement
 - **Infomaniak-tietosuojaseloste:**  https://www.infomaniak.com/en/legal/confidentiality-policy
 - **EURid / .eu-tietosuojaseloste:** https://eurid.eu/en/privacy-policy/
+  
+- **Tämän projektin ohjelmistokoodi on lisensoitu MIT-lisenssillä (katso LICENSE-tiedosto). Sivuston sisällölliset oikeudet ja vastuuvapauslausekkeet on määritelty yllä.**
