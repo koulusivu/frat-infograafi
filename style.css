@@ -120,3 +120,17 @@ html { scroll-behavior: smooth; }
 
     hr { border-top-color: #333 !important; }
 }
+
+.thumbnail {
+  width: 30px;         /* Tässä määrität pikkukuvan leveyden */
+  height: auto;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.3s ease; /* Pehmeä efekti, kun hiiri on päällä */
+  border: 2px solid #ddd;
+}
+
+.thumbnail:hover {
+  transform: scale(1.5); /* Kuva suurenee hieman, kun hiiri on päällä */
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
