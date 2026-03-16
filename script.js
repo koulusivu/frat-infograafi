@@ -7,3 +7,13 @@ window.addEventListener('scroll', () => {
         backToTopButton.classList.remove('show');
     }
 });
+
+// Lisätty osio: Logitus kuvan klikkaukselle
+document.addEventListener('DOMContentLoaded', () => {
+    const thumb = document.querySelector('.thumbnail');
+    if (thumb) {
+        thumb.addEventListener('click', () => {
+            console.log("Kuvaa klikattu, avataan alkuperäinen tiedosto...");
+        });
+    }
+});
