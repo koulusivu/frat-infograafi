@@ -121,16 +121,44 @@ html { scroll-behavior: smooth; }
     hr { border-top-color: #333 !important; }
 }
 
-.thumbnail {
-  width: 90px;         /* Tässä määrität pikkukuvan leveyden */
-  height: auto;
-  border-radius: 8px;
-  cursor: pointer;
-  transition: transform 0.3s ease; /* Pehmeä efekti, kun hiiri on päällä */
-  border: 2px solid #ddd;
+.image-container {
+  position: relative;
+  display: inline-block;
 }
 
-.thumbnail:hover {
-  transform: scale(2.0); /* Kuva suurenee hieman, kun hiiri on päällä */
-  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+.thumbnail {
+  width: 300px;
+  height: auto;
+  border-radius: 8px;
+  border: 2px solid #ddd;
+  display: block;
+}
+
+/* Piilotetaan ohjeteksti oletuksena */
+.hover-text {
+  visibility: hidden;
+  background-color: rgba(0, 0, 0, 0.8); /* Tumma tausta, jotta teksti erottuu */
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 10px;
+  position: absolute;
+  z-index: 1;
+  bottom: 10%; /* Teksti ilmestyy kuvan alaosaan */
+  left: 5%;
+  right: 5%;
+  font-size: 14px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+/* Näytetään teksti, kun linkkiä tai kuvaa "hoverataan" */
+.thumbnail-link:hover .hover-text {
+  visibility: visible;
+  opacity: 1;
+}
+
+/* Lisätään vielä pieni tyyli hiirelle, jotta käyttäjä tietää että kuva on klikattava */
+.thumbnail-link:hover .thumbnail {
+  filter: brightness(80%); /* Tummennetaan kuvaa hieman, jotta teksti nousee esiin */
 }
