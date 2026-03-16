@@ -122,7 +122,7 @@ html { scroll-behavior: smooth; }
 }
 
 .thumbnail {
-  width: 30px;         /* Tässä määrität pikkukuvan leveyden */
+  width: 300px;         /* Tässä määrität pikkukuvan leveyden */
   height: auto;
   border-radius: 8px;
   cursor: pointer;
