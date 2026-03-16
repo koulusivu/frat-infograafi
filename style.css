@@ -131,6 +131,6 @@ html { scroll-behavior: smooth; }
 }
 
 .thumbnail:hover {
-  transform: scale(3.0); /* Kuva suurenee hieman, kun hiiri on päällä */
+  transform: scale(2.0); /* Kuva suurenee hieman, kun hiiri on päällä */
   box-shadow: 0 4px 15px rgba(0,0,0,0.2);
 }
