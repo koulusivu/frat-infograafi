@@ -32,6 +32,7 @@ Sivuston saavutettavuus on testattu 17.3.2026. Tulokset ovat:
 - **CNAME:** Ohjaus omalle verkkotunnukselle.
 - **README.md:** Tämä teksti jota luet.
 - **LICENSE:** Lisenssi ja sen rajaus.
+- **.ico/.png** Kuvatiedostoja.
 
 ## Käyttöehdot ja tietosuoja
 
