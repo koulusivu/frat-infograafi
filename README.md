@@ -38,9 +38,9 @@ Sivuston saavutettavuus on testattu 17.3.2026. Tulokset ovat:
 
 ## Käyttöehdot ja tietosuoja
 
-- **Sivuston sisältö ei korvaa terveydenhuollon ammattilaisen tekemää kliinistä arviota. Tekijä ei vastaa sivuston tietojen oikeellisuudesta tai virheettömyydestä. Käyttäjä käyttää sivustoa täysin omalla vastuullaan.**
+- **Sivuston sisältö ei korvaa terveydenhuollon ammattilaisen tekemää kliinistä arviota.**
 
-Sivusto sisältää linkkejä kolmannen osapuolen sivuille, joiden sisällöistä tämän sivun ylläpitäjä ei vastaa lainkaan. Seuraava teksti sisältää linkkejä, jotka avautuvat kolmannen osapuolen sivuille:
+Sivusto sisältää linkkejä kolmannen osapuolen sivuille, joiden sisällöistä opinnaytetyo2026.eu-ylläpitäjä ei vastaa.
 
 ## Immateriaalioikeudet:
 
