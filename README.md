@@ -27,6 +27,8 @@ Sivuston saavutettavuus on testattu 17.3.2026. Tulokset ovat:
 ## Projektin rakenne
 
 - **index.html:** Sivuston pääsivu ja rakenne.
+- **lisenssi.html:** Lisenssi ja sen rajaus-alasivu verkkosivulla.
+- **lisatietosivu.html:** Lisätieto ja saavutettavuus-alasivu verkkosivulla.
 - **style.css:** Kaikki visuaalinen muotoilu.
 - **script.js:** Toiminnallisuudet ja logiikka.
 - **CNAME:** Ohjaus omalle verkkotunnukselle.
