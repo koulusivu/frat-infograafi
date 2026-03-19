@@ -20,6 +20,7 @@ body {
 .container {
     width: 100%; /* Lisätty: jotta max-width toimii oikein mobiilissa */
     max-width: 600px;
+    overflow-wrap: break-word; /* pakottaa tekstit laatikon sisälle */
     padding: 2rem;
     border: 5px solid #0038B8;
     box-shadow: 0 4px 15px rgba(0,0,0,0.1);
